@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            },
             "MySqlConnector": {
               "target": "Package",
               "version": "[2.0.0, )"
@@ -168,7 +172,7 @@
             },
             "MySql.Data.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.19, )"
+              "version": "[8.0.22, )"
             },
             "MySqlConnector": {
               "target": "Package",

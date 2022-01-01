@@ -60,3 +60,7 @@ D:\ApexRestaurant\ApexRestaurant.Api\obj\Debug\net5.0\ApexRestaurant.Api.dll
 D:\ApexRestaurant\ApexRestaurant.Api\obj\Debug\net5.0\ref\ApexRestaurant.Api.dll
 D:\ApexRestaurant\ApexRestaurant.Api\obj\Debug\net5.0\ApexRestaurant.Api.pdb
 D:\ApexRestaurant\ApexRestaurant.Api\obj\Debug\net5.0\ApexRestaurant.Api.genruntimeconfig.cache
+D:\ApexRestaurant\ApexRestaurant.Api\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\ApexRestaurant\ApexRestaurant.Api\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\ApexRestaurant\ApexRestaurant.Api\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\ApexRestaurant\ApexRestaurant.Api\bin\Debug\net5.0\Zstandard.Net.dll
