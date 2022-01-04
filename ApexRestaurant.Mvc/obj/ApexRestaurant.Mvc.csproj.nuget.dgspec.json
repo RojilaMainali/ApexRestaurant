@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj": {}
+    "D:\\ApexRestaurant\\ApexRestaurant.MVC\\ApexRestaurant.Mvc.csproj": {}
   },
   "projects": {
-    "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj": {
+    "D:\\ApexRestaurant\\ApexRestaurant.MVC\\ApexRestaurant.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
+        "projectUniqueName": "D:\\ApexRestaurant\\ApexRestaurant.MVC\\ApexRestaurant.Mvc.csproj",
         "projectName": "ApexRestaurant.Mvc",
-        "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\ApexRestaurant.Mvc.csproj",
+        "projectPath": "D:\\ApexRestaurant\\ApexRestaurant.MVC\\ApexRestaurant.Mvc.csproj",
         "packagesPath": "C:\\Users\\Me\\.nuget\\packages\\",
-        "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.Mvc\\obj\\",
+        "outputPath": "D:\\ApexRestaurant\\ApexRestaurant.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Me\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
@@ -57,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
             }
           },
           "imports": [

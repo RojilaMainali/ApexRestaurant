@@ -3,13 +3,15 @@ namespace ApexRestaurant.Repository.Domain
 {
  public class Staff
  {
-     public int Id { get; set; }
+     public int Staff_Id { get; set; }
+
+     public int Staff_Role_Code {get; set; }
 
      public string FirstName { get; set; }
 
      public string LastName { get; set; }
      
-     public DateTime Available_Date_To {get; set; }
+     public string Other_Details {get; set; }
 
  }
 }

@@ -32,7 +32,7 @@ namespace ApexRestaurant.Api
             Configuration.GetConnectionString("DefaultConnection"),
             GetType().Assembly.FullName);
             ServicesModule.Register(services);
-        services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+        services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
             
 
             services.AddControllers();
